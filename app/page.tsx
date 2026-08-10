@@ -54,8 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-art" aria-label="Sistema comercial inmobiliario P.R.O.P.">
-            <img src="/hero-workshop.png" alt="Composición editorial del Método P.R.O.P. aplicada al negocio inmobiliario" />
-            <div className="art-stamp">P.R.O.P.<br/><em>PROP. → PERSONA → DECISIÓN</em></div>
+            <img src="/hero-system-v2.png" alt="Composición editorial del Método P.R.O.P. aplicada al negocio inmobiliario" />
           </div>
         </div>
       </section>
@@ -149,7 +148,7 @@ export default function Home() {
               <li>Metodología P.R.O.P.</li>
               <li>Plantillas y piezas aplicables</li>
             </ul>
-            <a className="button button-primary full" href="mailto:?subject=Quiero%20inscribirme%20al%20Workshop%20P.R.O.P.&body=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20para%20inscribirme%20al%20Workshop%20Intensivo%20de%20Inteligencia%20Artificial%20para%20Asesores%20Inmobiliarios.">SOLICITAR INSCRIPCIÓN <span>↗</span></a>
+            <a className="button button-primary full" href="https://wa.me/5217713653473?text=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20para%20inscribirme%20al%20Workshop%20Intensivo%20de%20Inteligencia%20Artificial%20para%20Asesores%20Inmobiliarios." target="_blank" rel="noreferrer">SOLICITAR INSCRIPCIÓN <span>↗</span></a>
             <p className="micro">Al enviar tu solicitud, recibirás los siguientes pasos de inscripción.</p>
           </div>
         </div>
