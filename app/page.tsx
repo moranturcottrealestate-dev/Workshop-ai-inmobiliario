@@ -35,6 +35,7 @@ export default function Home() {
       <section className="hero" id="inicio">
         <nav className="nav shell" aria-label="Navegación principal">
           <a className="brand" href="#inicio">MÉTODO <span>P.R.O.P.</span></a>
+          <p className="sponsor-line"><span>UNA INICIATIVA PRESENTADA POR</span><strong>LFMS BIENES RAÍCES</strong></p>
           <a className="nav-link" href="#inscripcion">INSCRIBIRME <span>↗</span></a>
         </nav>
 
@@ -155,7 +156,7 @@ export default function Home() {
       </section>
 
       <footer className="footer shell">
-        <div><strong>LUIS FERNANDO<br/>MORÁN TURCOTT</strong><span>Workshop Intensivo · IA Inmobiliaria</span></div>
+        <div><strong>LUIS FERNANDO<br/>MORÁN TURCOTT</strong><span>Workshop Intensivo · IA Inmobiliaria</span><small>Con el respaldo de LFMS Bienes Raíces</small></div>
         <p>La Inteligencia Artificial no reemplaza al asesor inmobiliario. Reemplaza parte del trabajo repetitivo que le quita tiempo para lo que realmente importa.</p>
       </footer>
     </main>
