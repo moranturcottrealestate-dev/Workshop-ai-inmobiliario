@@ -3,10 +3,12 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Sesión demostrativa gratuita | IA para Asesores Inmobiliarios",
-  description: "Una demostración en vivo para convertir los datos de una propiedad en un sistema comercial con IA.",
+  description:
+    "Una demostración en vivo para convertir los datos de una propiedad en un sistema comercial con IA.",
   openGraph: {
     title: "Sesión demostrativa gratuita | IA para Asesores Inmobiliarios",
-    description: "Miércoles 19 de agosto · 18:00 h · Google Meet · Cupo limitado a 20 participantes.",
+    description:
+      "Miércoles 19 de agosto · 18:00 h · Google Meet · Cupo limitado a 20 participantes.",
     images: ["/hero-piloto-ia.png"],
   },
 };
@@ -24,7 +26,9 @@ const outcomes = [
 export default function PilotPage() {
   return (
     <main className={styles.page}>
-      <div className={styles.freeRibbon}><span>✦</span> 100% GRATIS <span>✦</span> SESIÓN DEMOSTRATIVA EN VIVO <span>✦</span> CUPO PARA 20 ASESORES <span>✦</span></div>
+      <div className={styles.freeRibbon}>
+        <span>✦</span> 100% GRATIS <span>✦</span> SESIÓN DEMOSTRATIVA EN VIVO <span>✦</span> CUPO PARA 20 ASESORES <span>✦</span>
+      </div>
 
       <section className={styles.hero} id="inicio">
         <nav className={`${styles.nav} ${styles.shell}`} aria-label="Navegación principal">
@@ -46,6 +50,14 @@ export default function PilotPage() {
             <img className={styles.heroArtwork} src="/hero-prop-transformacion.png" alt="Una propiedad transforma sus datos y planos en una presentación digital" />
             <div className={styles.floatingTag}>FICHA <b>→</b> LANDING</div>
           </div>
+        </div>
+      </section>
+
+      <section className={styles.dateBanner}>
+        <div className={`${styles.dateBannerInner} ${styles.shell}`}>
+          <div><span>CASO DEMOSTRATIVO</span><strong>DEPARTAMENTO EN VENTA · JURIQUILLA CENTRO, QUERÉTARO</strong></div>
+          <div><span>INFORMACIÓN BASE</span><strong>2 RECÁMARAS · 2 BAÑOS · 90 M² DE CONSTRUCCIÓN</strong></div>
+          <div><span>PRECIO DECLARADO</span><strong>$3,023,000 MXN · VIGENCIA POR CONFIRMAR</strong></div>
         </div>
       </section>
 

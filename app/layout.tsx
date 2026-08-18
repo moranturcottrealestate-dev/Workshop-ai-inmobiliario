@@ -5,8 +5,9 @@ import "./globals.css";
 const geist = Geist({ variable: "--font-geist", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Inteligencia Artificial para Asesores Inmobiliarios | Método P.R.O.P.",
-  description: "Workshop Intensivo en vivo para asesores inmobiliarios. Multiplica tu capacidad comercial con el Método P.R.O.P.",
+  title: "Workshop Intensivo | IA para Asesores Inmobiliarios",
+  description: "Implementa el Método P.R.O.P. y convierte IA en un sistema comercial aplicable a tus propiedades.",
+  openGraph: { images: ["/og.png"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
