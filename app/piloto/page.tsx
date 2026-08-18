@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sesión demostrativa | IA para Asesores Inmobiliarios",
     description:
-      "Lunes 17 de agosto · 18:00 h · Google Meet · Cupo limitado a 20 participantes.",
+      "Miércoles 19 de agosto · 18:00 h · Google Meet · Cupo limitado a 20 participantes.",
     images: ["/hero-piloto-ia.png"],
   },
 };
 
 const whatsappLink =
-  "https://wa.me/5217713653473?text=Hola%2C%20quiero%20reservar%20mi%20lugar%20para%20la%20Sesi%C3%B3n%20Demostrativa%20de%20IA%20para%20Asesores%20Inmobiliarios%20del%2017%20de%20agosto.";
+  "https://wa.me/5217713653473?text=Hola%2C%20quiero%20reservar%20mi%20lugar%20para%20la%20Sesi%C3%B3n%20Demostrativa%20de%20IA%20para%20Asesores%20Inmobiliarios%20del%2019%20de%20agosto.";
 
 const outcomes = [
   "Ordenar la información disponible de una propiedad sin inventar datos.",
@@ -43,7 +43,7 @@ export default function PilotPage() {
               Una demostración práctica del método P.R.O.P. para ordenar datos, preparar conversaciones y crear activos comerciales con criterio.
             </p>
             <div className={styles.eventMeta} aria-label="Detalles del evento">
-              <strong>LUN 17 AGO</strong><span>18:00 H</span><span>GOOGLE MEET</span>
+              <strong>MIÉ 19 AGO</strong><span>18:00 H</span><span>GOOGLE MEET</span>
             </div>
             <div className={styles.actions}>
               <a className={`${styles.button} ${styles.buttonPrimary}`} href={whatsappLink} target="_blank" rel="noreferrer">
@@ -111,7 +111,7 @@ export default function PilotPage() {
             <p>La sesión es una demostración práctica del método que podrás profundizar en el Workshop Intensivo de Inteligencia Artificial para Asesores Inmobiliarios.</p>
           </div>
           <div className={styles.registerAction}>
-            <strong>LUNES 17 DE AGOSTO<br />18:00 H · CIUDAD DE MÉXICO</strong>
+            <strong>MIÉRCOLES 19 DE AGOSTO<br />18:00 H · CIUDAD DE MÉXICO</strong>
             <a className={`${styles.button} ${styles.buttonLight}`} href={whatsappLink} target="_blank" rel="noreferrer">QUIERO RESERVAR MI LUGAR</a>
             <small>20 LUGARES DISPONIBLES · REGISTRO POR WHATSAPP</small>
           </div>
